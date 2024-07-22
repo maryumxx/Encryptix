@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Calculator - Mathex</title>
+    <link rel="stylesheet" href="basic-math.css">
+    <script defer src="basic-math.js"></script>
+</head>
+<body>
+    <a href="index.html">
+        <img src="mathex.png" alt="Mathex Logo" class="logo">
+      </a>
+    <div class="calculator">
+        <h1>Simple Calculator</h1>
+        <form id="calculatorForm">
+          <input type="number" id="firstnum" name="firstnum" placeholder="First Number" required>
+          <input type="number" id="secondnum" name="secondnum" placeholder="Second Number" required>
+          <select id="operators" name="operators" required>
+            <option value="Addition" style="color: black;">Addition</option>
+            <option value="Subtraction" style="color: black;">Subtraction</option>
+            <option value="Multiplication" style="color: black;">Multiplication</option>
+            <option value="Division" style="color: black;">Division</option>
+            <option value="Modulus" style="color: black;">Modulus</option>
+          </select>
+          <button type="submit">Calculate</button>
+        </form>
+        <div id="resultBox">
+          <h2 id="result">Your result will appear here</h2>
+        </div>
+      </div>
+</body>
+</html>

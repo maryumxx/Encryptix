@@ -1,0 +1,93 @@
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-image: url(bg.png); 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+
+.bg {
+  height: calc(-50vh + 250px); 
+  
+} 
+
+.calculator {
+  background-color:transparent;
+  padding: 20px;
+  border-radius: 5%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 500px;
+  outline: 1px solid rgb(255, 255, 255);
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, select, button {
+  padding: 10px;
+  border-radius: 5px;
+  outline: 1px solid rgb(255, 255, 255);
+  font-size: 16px;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+}
+
+button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  outline: 1px solid rgb(255, 255, 255);
+}
+
+button:hover {
+  background-color: #30D5C8;
+  color: black;
+}
+
+#resultBox {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+#result {
+  font-size: 18px;
+  color: white;
+}
+select {
+  background-color: transparent;
+  color: white;
+}
+
+select option {
+  background-color:transparent;
+  color: white;
+}
+
+.logo{
+  height: 150px;
+  width: 150px;
+  display:flex;
+  position: absolute;
+  top: -5px;
+  left: 200px
+}

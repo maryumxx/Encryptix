@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(255, 255, 255);
+    color: white;
+    font-family: sans-serif;
+    background-image: url(bg.png); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.bg {
+    height: calc(-50vh + 250px); 
+    
+} 
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    margin: 80px;
+    position: relative;
+    top: -100px;
+}
+.container .card img{
+    height: 200px;
+
+}
+.card{
+    background-color:transparent;
+    padding: 20px;
+    border-radius: 30%;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    height: 300px;
+    width: 300px;
+    outline: 2px solid rgb(255, 255, 255);
+    
+}
+
+.motto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    font-family: 'Segoe UI';
+    font-weight: bolder;
+    font-size:62px
+    
+}
+
+.logo{
+    height: 150px;
+    width: 150px;
+    display:flex;
+    position: absolute;
+    top: -5px;
+    left: 200px
+}
+ a {
+    text-decoration: none;
+ }
+
+ select {
+    background-color: black;
+    color: white;
+  }
+  
+  select option {
+    background-color: white;
+    color: black;
+  }
+ 
