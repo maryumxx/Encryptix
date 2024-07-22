@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maryam - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">
+            <span>Mar</span>yam
+        </a>
+        <nav class="navbar">
+            <a href="#" class="active">Portfolio</a>
+            <a href="#">Services</a>
+            <a href="#">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#">Education</a>
+        </nav>
+        <a href="mailto:maryambuttxx@gmail.com" class="contact">Contact Me</a>
+    </header>
+
+    <section class="home">
+        <div class="home-content">
+            <h3>Hi</h3>
+            <h1>I'm <span>Maryam <br></span>a Full Stack Developer</h1>
+            <p>I'm a full stack web developer with a knack for creating beautiful and functional websites. My expertise spans both front-end and back-end development, allowing me to create seamless and visually appealing web experiences.</p>
+            <div class="btn-box">
+                <a href="https://www.linkedin.com/in/maryam-nadeem-86534b247/" class="btn-1" target="_blank">Hire Me</a>
+                <button class="btn-2" id="downloadCvBtn">Download CV</button>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="img.jpeg" alt="img">
+        </div>
+    </section>
+
+    <section id="about"  class="about">
+        <div class="about-img">
+            <img src="img.jpeg" alt="">
+        </div>
+
+        <div class="about-content">
+            
+            <h3>About <span>Me</span></h3>
+            <p>I'm a passionate Frontend Developer with expertise in HTML, CSS, TypeScript, Node.js, Next.js, and Python. In addition to my technical skills, I have a strong background as a Freelance Sales Professional.
+
+                I am currently a senior lead student in a prestigious TypeScript program presented by the Governor of Sindh. My dedication, deep understanding of the subject, and timely submission of assignments earned me this position. I also enjoy helping fellow students excel in their studies.
+                
+                I am pursuing a degree in Computer Science at Hamdard University, where I continue to expand my knowledge and skills in the field. My goal is to leverage my diverse experience to create innovative and impactful web solutions.</p>
+                <div>
+                    <a href="mailto:maryambuttxx@gmail.com" class="btn-2">Contact Me</a>
+                   </div>
+        </div>
+       
+    </section>
+
+    <section class="projects" id="projects">
+        <h2>My Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Mathex - A Calculator Website</h3>
+                <a href="https://www.instagram.com" target="_blank">
+                    <img src="mathex.jpg" alt="Mathex">
+                </a>
+                <p>A collection of various calculators for different needs, including arithmetic, scientific, and financial calculations, all in one place. Designed for quick and easy use with a responsive layout.</p>
+            </div>
+            <div class="project">
+                <h3>An Artwall - Landing Page</h3>
+                <a href="https://www.instagram.com" target="_blank">
+                    <img src="artwall.jpg" alt="Artwall" style="padding: 20px; border-radius: 50px">
+                </a>
+                <p>Description of Website 2. This could be a brief overview of what the website does or the technologies used.</p>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <footer class="footer">
+
+        <div class="social">
+            <a href="https://www.facebook.com/profile.php?id=100009898421529"><i class='bx bxl-facebook' ></i></a>
+            <a href="https://www.linkedin.com/in/maryam-nadeem-86534b247/"><i class='bx bxl-linkedin' ></i></a>
+            <a href="https://github.com/maryumxx"><i class='bx bxl-github' ></i></a>
+            <a href="https://www.instagram.com/maryemnx?igsh=Y2tnZ29lYzM5dG9q"><i class='bx bxl-instagram' ></i></a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+            <li>
+                <a href="#">Services</a>
+            </li>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="mailto:maryambuttxx@gmail.com">Contact</a>
+            </li>
+            <li>
+                <a href="#">Privacy Policy</a>
+            </li>
+        </ul>
+
+        <p class="copyright">© 2024 Maryam | All Rights Reserved</p>
+
+        <script>
+        document.getElementById('downloadCvBtn').addEventListener('click', function() {
+            const link = document.createElement('a');
+            link.href = 'maryam_nadeem_resume.png'; 
+            link.download = 'maryam_nadeem_resume.png'; 
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        });
+        </script>
+    </footer>
+</body>
+</html>
