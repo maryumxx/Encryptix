@@ -10,6 +10,7 @@
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
     list-style: none;
+    box-sizing: border-box;
 }
 
 .header {
@@ -324,3 +325,120 @@ html {
     color: var(--main-color);
     font-size: 62px;
 }
+
+@media (max-width: 800px) {
+   
+    .navbar {
+        display: none;
+    }
+
+   
+    .header {
+        justify-content: space-between;
+    }
+    .home {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    .home-content {
+        max-width: 100%;
+        text-align: center;
+    }
+    .home-content h1 {
+        font-size: 3rem;
+    }
+    .home-content p {
+        font-size: 1.2rem;
+    }
+
+    .img-box {
+        max-width: 100%;
+        margin-top: 100px;
+        align-items: center;
+        justify-content: center;
+        order: -1;
+    }
+    .btn-box {
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        
+        width: 100%;
+        gap: 15px;
+    }
+
+    .btn-1, .btn-2 {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+        width: 100%; 
+        max-width: 300px; 
+    }
+
+    .about {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        padding-bottom: 50px;
+    }
+
+    
+    .about-img {
+        max-width: 100%;
+        margin-bottom: 5px;
+        order: -1;
+        margin-top: 60px;
+    }
+
+
+    .about-content {
+        max-width: 100%;
+        text-align: center;
+        order: 2;
+        margin-top: -100px;
+    }
+
+    .about-content h3 {
+        font-size: 1.8rem;
+    }
+
+    .about-content p {
+        font-size: 0.9rem;
+    }
+
+
+    .btn-2 {
+        padding: 14px 16px;
+        font-size: 0.9rem;
+        width: 100%;
+        max-width: 300px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    .projects {
+        flex-direction: row;
+        align-items: center;
+        max-width: 100%;
+        flex: 0 1 100%;
+    }
+
+    .project {
+        flex: 0 1 100%; 
+        max-width: 100%;
+        
+    }
+
+    .project img {
+        border-radius: 15px;
+    }
+
+    .project h3 {
+        font-size: 1.2rem;
+    }
+
+    .project p {
+        font-size: 0.9rem;
+    }
+}
+
+
